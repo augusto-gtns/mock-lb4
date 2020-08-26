@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  backend:
+    container_name: mock-lb4-container
+    image: mock-lb4-image
+    ports:
+      - 3000:3000
